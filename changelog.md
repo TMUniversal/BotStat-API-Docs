@@ -2,19 +2,17 @@
 
 ## 0.1.5 - 2020-06-19
 
-### Fixed
+### Added
 
-* Removed humans, they weren't doing fine with animals.
+* Endpoint to get stats about all commands of a bot.
 
 ### Changed
 
-* Animals are now super cute, all of them.
+* Endpoints for command stat updates.
 
-## 0.1.4 - 2042-10-06
+## 0.1.4 - 2020-06-17
 
 ### Added
 
-* Introduced animals into the world, we believe they're going to be a neat addition.
-
-
+* Introduced BotStat features.
 
