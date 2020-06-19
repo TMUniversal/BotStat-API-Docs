@@ -213,7 +213,7 @@ Update Bot Stats
 
 {% api-method-description %}
 Update user base statistics of your bot. Requires at least one of the body parameters to be set.  
-API key required.
+Requires API key.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -300,7 +300,8 @@ Update Command Stats
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update command usage statistics.
+Update command usage statistics.  
+Requires API key.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -373,7 +374,8 @@ Update Command Stats \(new method\)
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update command usage statistics. New method with more comfortable usage.
+Update command usage statistics. New method with more comfortable usage.  
+Requires API key.
 {% endapi-method-description %}
 
 {% api-method-spec %}
