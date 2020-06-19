@@ -4,6 +4,6 @@
 
 ## Endpoints
 
-* [Untitled](endpoints/untitled.md)
+* [Basic API Endpoints](endpoints/untitled.md)
 * [Changelog](changelog.md)
 
