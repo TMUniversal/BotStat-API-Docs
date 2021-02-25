@@ -4,7 +4,7 @@ description: The actual BotStat API Endpoints. Some require an API key.
 
 # BotStat Endpoints
 
-{% api-method method="get" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/botstat/:id" %}
+{% api-method method="get" host="https://api.tmuniversal.eu/statistics" path="/botstat/:id" %}
 {% api-method-summary %}
 Get Bot Stats
 {% endapi-method-summary %}
@@ -67,7 +67,7 @@ An error with the database has occurred.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/cmdstat/:id" %}
+{% api-method method="get" host="https://api.tmuniversal.eu/statistics" path="/cmdstat/:id" %}
 {% api-method-summary %}
 Get Command Stats \(all commands\)
 {% endapi-method-summary %}
@@ -131,7 +131,7 @@ An error with the database has occurred.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/cmdstat/:id/:cmd" %}
+{% api-method method="get" host="https://api.tmuniversal.eu/statistics" path="/cmdstat/:id/:cmd" %}
 {% api-method-summary %}
 Get Command Stats \(specific\)
 {% endapi-method-summary %}
@@ -206,7 +206,7 @@ An error with the database has occurred.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="patch" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/botstat/:id" %}
+{% api-method method="patch" host="https://api.tmuniversal.eu/statistics" path="/botstat/:id" %}
 {% api-method-summary %}
 Update Bot Stats
 {% endapi-method-summary %}
@@ -294,7 +294,7 @@ An error with the database has occurred.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="put" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/cmdstat/:id" %}
+{% api-method method="put" host="https://api.tmuniversal.eu/statistics" path="/cmdstat/:id" %}
 {% api-method-summary %}
 Update Command Stats
 {% endapi-method-summary %}
@@ -368,7 +368,7 @@ An error with the database has occurred
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="put" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/cmdstat/:id/:cmd" %}
+{% api-method method="put" host="https://api.tmuniversal.eu/statistics" path="/cmdstat/:id/:cmd" %}
 {% api-method-summary %}
 Update Command Stats \(new method\)
 {% endapi-method-summary %}

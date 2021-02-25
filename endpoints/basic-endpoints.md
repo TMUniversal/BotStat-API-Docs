@@ -6,7 +6,7 @@ description: >-
 
 # Basic API Endpoints
 
-{% api-method method="get" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/" %}
+{% api-method method="get" host="https://api.tmuniversal.eu/statistics" path="/" %}
 {% api-method-summary %}
 Base Route
 {% endapi-method-summary %}
@@ -35,7 +35,7 @@ API can answer and returns some information.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/version" %}
+{% api-method method="get" host="https://api.tmuniversal.eu/statistics" path="/version" %}
 {% api-method-summary %}
 API Version
 {% endapi-method-summary %}
@@ -61,7 +61,7 @@ Return the full API version.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/neko" %}
+{% api-method method="get" host="https://api.tmuniversal.eu/statistics" path="/neko" %}
 {% api-method-summary %}
 Catgirl Generator
 {% endapi-method-summary %}
@@ -90,7 +90,7 @@ A catgirl was successfully found.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://tmuniversal-api.herokuapp.com/api/v1" path="/spongetalk" %}
+{% api-method method="get" host="https://api.tmuniversal.eu/statistics" path="/spongetalk" %}
 {% api-method-summary %}
 Spongetalk
 {% endapi-method-summary %}
